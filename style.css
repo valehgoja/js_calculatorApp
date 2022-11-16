@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+body {
+  display: flex;
+  justify-content: center;
+}
+.mainDiv {
+  margin-top: 20px;
+  width: 30%;
+  height: 40rem;
+  border: 2px solid rgba(154, 112, 112, 0.281);
+  border-radius: 10px;
+}
+.inputDiv {
+  display: flex;
+  justify-content: center;
+}
+.input {
+  margin-top: 10px;
+  width: 90%;
+  height: 6rem;
+  border-radius: 10px;
+  border: 2px solid rgba(154, 112, 112, 0.281);
+  text-align: end;
+  font-size: 2.5rem;
+}
+.input:focus {
+  outline: 0;
+}
+
+.mathBtn {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  width: auto;
+}
+
+.btn-secondary {
+  width: 7rem;
+  height: 4rem;
+  background-color: rgba(46, 33, 33, 0.281) !important;
+  border: 0px !important;
+  font-size: 2rem !important;
+  margin: 0 10px;
+}
+.btn-secondary:hover {
+  color: rgba(46, 33, 33, 0.281) !important ;
+  background-color: white !important;
+  border: 1px solid rgba(46, 33, 33, 0.281) !important;
+}
+
+.btn-outline-secondary {
+  width: 7rem;
+  height: 4rem;
+  border: 0px !important;
+  font-size: 2rem !important;
+  text-align: center !important;
+  margin: 10px 10px;
+  color: rgba(46, 33, 33, 0.281) !important ;
+  background-color: white !important;
+  border: 1px solid rgba(46, 33, 33, 0.281) !important;
+}
+.btn-outline-secondary:hover {
+  color: white !important ;
+  background-color: rgba(46, 33, 33, 0.281) !important;
+  border: 1px solid rgba(46, 33, 33, 0.281) !important;
+}
+.numbersBtn {
+  display: block;
+  width: 80%;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.btnEqual {
+  display: flex;
+  position: absolute;
+  width: 7rem;
+  height: 220px;
+  top: 162px;
+  left: 740px;
+  color: white !important ;
+  background-color: rgba(46, 33, 33, 0.281) !important;
+  border: 0px solid rgba(46, 33, 33, 0.281) !important;
+  border-radius: 10px;
+  justify-content: center;
+  padding-top: 80px;
+  font-size: 30px;
+}
+.btnEqual:hover{
+    color: rgba(46, 33, 33, 0.281) !important;
+    background-color: white !important;
+    border: 1px solid rgba(46, 33, 33, 0.281) !important;
+}
